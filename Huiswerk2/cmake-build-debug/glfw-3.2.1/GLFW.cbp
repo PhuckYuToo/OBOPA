@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLFW"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\glfw-3.2.1\;CMake Files\glfw-3.2.1\CMake\;CMake Files\glfw-3.2.1\CMake\modules\;CMake Files\glfw-3.2.1\src\;CMake Files\glew-2.1.0\;CMake Files\glew-2.1.0\build\;CMake Files\glew-2.1.0\build\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/include"/>
+					<Add directory="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src"/>
+					<Add directory="C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/src"/>
+					<Add directory="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/deps/mingw"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/include"/>
+					<Add directory="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src"/>
+					<Add directory="C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/src"/>
+					<Add directory="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/deps/mingw"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/cmake-build-debug/glfw-3.2.1/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/wgl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/wgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/win32_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/win32_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/win32_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/win32_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/win32_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/win32_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/win32_tls.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/win32_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\glfw-3.2.1\CMake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glfw-3.2.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glew-2.1.0/glew.pc.in">
+			<Option virtualFolder="CMake Files\glew-2.1.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk2/glew-2.1.0/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glew-2.1.0\build\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

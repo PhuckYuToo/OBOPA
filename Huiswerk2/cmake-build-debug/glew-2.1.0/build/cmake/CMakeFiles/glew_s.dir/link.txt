@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc ..\..\..\lib\libglew32d.a  CMakeFiles/glew_s.dir/__/__/src/glew.c.obj CMakeFiles/glew_s.dir/__/glew.rc.obj
+C:\MinGW\bin\ranlib.exe ..\..\..\lib\libglew32d.a
