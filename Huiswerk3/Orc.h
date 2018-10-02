@@ -4,7 +4,8 @@
 
 class Orc : public NPC {
 public:
-    Orc() {
-        name += "Orc ";
+    Orc() {}
+    void render() {
+        std::cout << "Orc" << std::endl;
     }
 };

@@ -3,10 +3,9 @@
 #include "NPC.h"
 
 class Decorator : public NPC {
-protected:
-    NPC* npc;
 public:
-    void render() {
-        npc->render();
-    }
+    NPC* npc;
+    Decorator(NPC* n);
+    virtual ~Decorator();
+    virtual void render();
 };

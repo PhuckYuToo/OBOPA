@@ -4,7 +4,8 @@
 
 class Elf : public NPC {
 public:
-    Elf() {
-        name += "Elf ";
+    Elf() {}
+    void render() {
+        std::cout << "Elf" << std::endl;
     }
 };

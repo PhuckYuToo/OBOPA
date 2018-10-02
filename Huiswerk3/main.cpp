@@ -20,6 +20,8 @@ int main() {
     NPCs.push_back(new Farmer(new Elf()));
     NPCs.push_back(new Soldier(new Elf()));
 
+    NPCs.push_back(new Shaman(new Soldier(new Farmer(new Orc()))));
+
     for(auto& npc : NPCs) npc->render();
 
     for(auto npc : NPCs) delete npc;

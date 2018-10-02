@@ -6,7 +6,7 @@
 class NPC {
 public:
     std::string name;
-    virtual void render() {
-        std::cout << name << std::endl;
-    }
+    NPC();
+    virtual ~NPC();
+    virtual void render() = 0;
 };

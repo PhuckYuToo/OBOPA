@@ -4,8 +4,6 @@
 
 class Shaman : public Decorator {
 public:
-    Shaman(NPC* n) {
-        npc = n;
-        npc->name += "Shaman ";
-    }
+    Shaman(NPC* n);
+    void render();
 };

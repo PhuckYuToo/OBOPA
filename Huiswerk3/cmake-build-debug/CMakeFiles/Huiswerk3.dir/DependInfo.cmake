@@ -4,6 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/phuck/CLionProjects/Huiswerk3/Decorator.cpp" "C:/Users/phuck/CLionProjects/Huiswerk3/cmake-build-debug/CMakeFiles/Huiswerk3.dir/Decorator.cpp.obj"
+  "C:/Users/phuck/CLionProjects/Huiswerk3/Farmer.cpp" "C:/Users/phuck/CLionProjects/Huiswerk3/cmake-build-debug/CMakeFiles/Huiswerk3.dir/Farmer.cpp.obj"
+  "C:/Users/phuck/CLionProjects/Huiswerk3/NPC.cpp" "C:/Users/phuck/CLionProjects/Huiswerk3/cmake-build-debug/CMakeFiles/Huiswerk3.dir/NPC.cpp.obj"
+  "C:/Users/phuck/CLionProjects/Huiswerk3/Shaman.cpp" "C:/Users/phuck/CLionProjects/Huiswerk3/cmake-build-debug/CMakeFiles/Huiswerk3.dir/Shaman.cpp.obj"
+  "C:/Users/phuck/CLionProjects/Huiswerk3/Soldier.cpp" "C:/Users/phuck/CLionProjects/Huiswerk3/cmake-build-debug/CMakeFiles/Huiswerk3.dir/Soldier.cpp.obj"
   "C:/Users/phuck/CLionProjects/Huiswerk3/main.cpp" "C:/Users/phuck/CLionProjects/Huiswerk3/cmake-build-debug/CMakeFiles/Huiswerk3.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

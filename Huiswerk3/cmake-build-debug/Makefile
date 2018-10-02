@@ -122,6 +122,141 @@ Huiswerk3/fast:
 	$(MAKE) -f CMakeFiles\Huiswerk3.dir\build.make CMakeFiles/Huiswerk3.dir/build
 .PHONY : Huiswerk3/fast
 
+Decorator.obj: Decorator.cpp.obj
+
+.PHONY : Decorator.obj
+
+# target to build an object file
+Decorator.cpp.obj:
+	$(MAKE) -f CMakeFiles\Huiswerk3.dir\build.make CMakeFiles/Huiswerk3.dir/Decorator.cpp.obj
+.PHONY : Decorator.cpp.obj
+
+Decorator.i: Decorator.cpp.i
+
+.PHONY : Decorator.i
+
+# target to preprocess a source file
+Decorator.cpp.i:
+	$(MAKE) -f CMakeFiles\Huiswerk3.dir\build.make CMakeFiles/Huiswerk3.dir/Decorator.cpp.i
+.PHONY : Decorator.cpp.i
+
+Decorator.s: Decorator.cpp.s
+
+.PHONY : Decorator.s
+
+# target to generate assembly for a file
+Decorator.cpp.s:
+	$(MAKE) -f CMakeFiles\Huiswerk3.dir\build.make CMakeFiles/Huiswerk3.dir/Decorator.cpp.s
+.PHONY : Decorator.cpp.s
+
+Farmer.obj: Farmer.cpp.obj
+
+.PHONY : Farmer.obj
+
+# target to build an object file
+Farmer.cpp.obj:
+	$(MAKE) -f CMakeFiles\Huiswerk3.dir\build.make CMakeFiles/Huiswerk3.dir/Farmer.cpp.obj
+.PHONY : Farmer.cpp.obj
+
+Farmer.i: Farmer.cpp.i
+
+.PHONY : Farmer.i
+
+# target to preprocess a source file
+Farmer.cpp.i:
+	$(MAKE) -f CMakeFiles\Huiswerk3.dir\build.make CMakeFiles/Huiswerk3.dir/Farmer.cpp.i
+.PHONY : Farmer.cpp.i
+
+Farmer.s: Farmer.cpp.s
+
+.PHONY : Farmer.s
+
+# target to generate assembly for a file
+Farmer.cpp.s:
+	$(MAKE) -f CMakeFiles\Huiswerk3.dir\build.make CMakeFiles/Huiswerk3.dir/Farmer.cpp.s
+.PHONY : Farmer.cpp.s
+
+NPC.obj: NPC.cpp.obj
+
+.PHONY : NPC.obj
+
+# target to build an object file
+NPC.cpp.obj:
+	$(MAKE) -f CMakeFiles\Huiswerk3.dir\build.make CMakeFiles/Huiswerk3.dir/NPC.cpp.obj
+.PHONY : NPC.cpp.obj
+
+NPC.i: NPC.cpp.i
+
+.PHONY : NPC.i
+
+# target to preprocess a source file
+NPC.cpp.i:
+	$(MAKE) -f CMakeFiles\Huiswerk3.dir\build.make CMakeFiles/Huiswerk3.dir/NPC.cpp.i
+.PHONY : NPC.cpp.i
+
+NPC.s: NPC.cpp.s
+
+.PHONY : NPC.s
+
+# target to generate assembly for a file
+NPC.cpp.s:
+	$(MAKE) -f CMakeFiles\Huiswerk3.dir\build.make CMakeFiles/Huiswerk3.dir/NPC.cpp.s
+.PHONY : NPC.cpp.s
+
+Shaman.obj: Shaman.cpp.obj
+
+.PHONY : Shaman.obj
+
+# target to build an object file
+Shaman.cpp.obj:
+	$(MAKE) -f CMakeFiles\Huiswerk3.dir\build.make CMakeFiles/Huiswerk3.dir/Shaman.cpp.obj
+.PHONY : Shaman.cpp.obj
+
+Shaman.i: Shaman.cpp.i
+
+.PHONY : Shaman.i
+
+# target to preprocess a source file
+Shaman.cpp.i:
+	$(MAKE) -f CMakeFiles\Huiswerk3.dir\build.make CMakeFiles/Huiswerk3.dir/Shaman.cpp.i
+.PHONY : Shaman.cpp.i
+
+Shaman.s: Shaman.cpp.s
+
+.PHONY : Shaman.s
+
+# target to generate assembly for a file
+Shaman.cpp.s:
+	$(MAKE) -f CMakeFiles\Huiswerk3.dir\build.make CMakeFiles/Huiswerk3.dir/Shaman.cpp.s
+.PHONY : Shaman.cpp.s
+
+Soldier.obj: Soldier.cpp.obj
+
+.PHONY : Soldier.obj
+
+# target to build an object file
+Soldier.cpp.obj:
+	$(MAKE) -f CMakeFiles\Huiswerk3.dir\build.make CMakeFiles/Huiswerk3.dir/Soldier.cpp.obj
+.PHONY : Soldier.cpp.obj
+
+Soldier.i: Soldier.cpp.i
+
+.PHONY : Soldier.i
+
+# target to preprocess a source file
+Soldier.cpp.i:
+	$(MAKE) -f CMakeFiles\Huiswerk3.dir\build.make CMakeFiles/Huiswerk3.dir/Soldier.cpp.i
+.PHONY : Soldier.cpp.i
+
+Soldier.s: Soldier.cpp.s
+
+.PHONY : Soldier.s
+
+# target to generate assembly for a file
+Soldier.cpp.s:
+	$(MAKE) -f CMakeFiles\Huiswerk3.dir\build.make CMakeFiles/Huiswerk3.dir/Soldier.cpp.s
+.PHONY : Soldier.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +293,21 @@ help:
 	@echo ... Huiswerk3
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Decorator.obj
+	@echo ... Decorator.i
+	@echo ... Decorator.s
+	@echo ... Farmer.obj
+	@echo ... Farmer.i
+	@echo ... Farmer.s
+	@echo ... NPC.obj
+	@echo ... NPC.i
+	@echo ... NPC.s
+	@echo ... Shaman.obj
+	@echo ... Shaman.i
+	@echo ... Shaman.s
+	@echo ... Soldier.obj
+	@echo ... Soldier.i
+	@echo ... Soldier.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

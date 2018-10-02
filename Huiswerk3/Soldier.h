@@ -4,8 +4,6 @@
 
 class Soldier : public Decorator {
 public:
-    Soldier(NPC* n) {
-        npc = n;
-        npc->name += "Soldier ";
-    }
+    Soldier(NPC* n);
+    void render();
 };

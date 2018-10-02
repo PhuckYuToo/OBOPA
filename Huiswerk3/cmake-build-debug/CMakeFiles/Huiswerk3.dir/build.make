@@ -69,19 +69,94 @@ CMakeFiles/Huiswerk3.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Huiswerk3.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\phuck\CLionProjects\Huiswerk3\main.cpp -o CMakeFiles\Huiswerk3.dir\main.cpp.s
 
+CMakeFiles/Huiswerk3.dir/Decorator.cpp.obj: CMakeFiles/Huiswerk3.dir/flags.make
+CMakeFiles/Huiswerk3.dir/Decorator.cpp.obj: ../Decorator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\phuck\CLionProjects\Huiswerk3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Huiswerk3.dir/Decorator.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Huiswerk3.dir\Decorator.cpp.obj -c C:\Users\phuck\CLionProjects\Huiswerk3\Decorator.cpp
+
+CMakeFiles/Huiswerk3.dir/Decorator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Huiswerk3.dir/Decorator.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\phuck\CLionProjects\Huiswerk3\Decorator.cpp > CMakeFiles\Huiswerk3.dir\Decorator.cpp.i
+
+CMakeFiles/Huiswerk3.dir/Decorator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Huiswerk3.dir/Decorator.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\phuck\CLionProjects\Huiswerk3\Decorator.cpp -o CMakeFiles\Huiswerk3.dir\Decorator.cpp.s
+
+CMakeFiles/Huiswerk3.dir/Shaman.cpp.obj: CMakeFiles/Huiswerk3.dir/flags.make
+CMakeFiles/Huiswerk3.dir/Shaman.cpp.obj: ../Shaman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\phuck\CLionProjects\Huiswerk3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Huiswerk3.dir/Shaman.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Huiswerk3.dir\Shaman.cpp.obj -c C:\Users\phuck\CLionProjects\Huiswerk3\Shaman.cpp
+
+CMakeFiles/Huiswerk3.dir/Shaman.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Huiswerk3.dir/Shaman.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\phuck\CLionProjects\Huiswerk3\Shaman.cpp > CMakeFiles\Huiswerk3.dir\Shaman.cpp.i
+
+CMakeFiles/Huiswerk3.dir/Shaman.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Huiswerk3.dir/Shaman.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\phuck\CLionProjects\Huiswerk3\Shaman.cpp -o CMakeFiles\Huiswerk3.dir\Shaman.cpp.s
+
+CMakeFiles/Huiswerk3.dir/Farmer.cpp.obj: CMakeFiles/Huiswerk3.dir/flags.make
+CMakeFiles/Huiswerk3.dir/Farmer.cpp.obj: ../Farmer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\phuck\CLionProjects\Huiswerk3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Huiswerk3.dir/Farmer.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Huiswerk3.dir\Farmer.cpp.obj -c C:\Users\phuck\CLionProjects\Huiswerk3\Farmer.cpp
+
+CMakeFiles/Huiswerk3.dir/Farmer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Huiswerk3.dir/Farmer.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\phuck\CLionProjects\Huiswerk3\Farmer.cpp > CMakeFiles\Huiswerk3.dir\Farmer.cpp.i
+
+CMakeFiles/Huiswerk3.dir/Farmer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Huiswerk3.dir/Farmer.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\phuck\CLionProjects\Huiswerk3\Farmer.cpp -o CMakeFiles\Huiswerk3.dir\Farmer.cpp.s
+
+CMakeFiles/Huiswerk3.dir/Soldier.cpp.obj: CMakeFiles/Huiswerk3.dir/flags.make
+CMakeFiles/Huiswerk3.dir/Soldier.cpp.obj: ../Soldier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\phuck\CLionProjects\Huiswerk3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Huiswerk3.dir/Soldier.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Huiswerk3.dir\Soldier.cpp.obj -c C:\Users\phuck\CLionProjects\Huiswerk3\Soldier.cpp
+
+CMakeFiles/Huiswerk3.dir/Soldier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Huiswerk3.dir/Soldier.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\phuck\CLionProjects\Huiswerk3\Soldier.cpp > CMakeFiles\Huiswerk3.dir\Soldier.cpp.i
+
+CMakeFiles/Huiswerk3.dir/Soldier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Huiswerk3.dir/Soldier.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\phuck\CLionProjects\Huiswerk3\Soldier.cpp -o CMakeFiles\Huiswerk3.dir\Soldier.cpp.s
+
+CMakeFiles/Huiswerk3.dir/NPC.cpp.obj: CMakeFiles/Huiswerk3.dir/flags.make
+CMakeFiles/Huiswerk3.dir/NPC.cpp.obj: ../NPC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\phuck\CLionProjects\Huiswerk3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Huiswerk3.dir/NPC.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Huiswerk3.dir\NPC.cpp.obj -c C:\Users\phuck\CLionProjects\Huiswerk3\NPC.cpp
+
+CMakeFiles/Huiswerk3.dir/NPC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Huiswerk3.dir/NPC.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\phuck\CLionProjects\Huiswerk3\NPC.cpp > CMakeFiles\Huiswerk3.dir\NPC.cpp.i
+
+CMakeFiles/Huiswerk3.dir/NPC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Huiswerk3.dir/NPC.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\phuck\CLionProjects\Huiswerk3\NPC.cpp -o CMakeFiles\Huiswerk3.dir\NPC.cpp.s
+
 # Object files for target Huiswerk3
 Huiswerk3_OBJECTS = \
-"CMakeFiles/Huiswerk3.dir/main.cpp.obj"
+"CMakeFiles/Huiswerk3.dir/main.cpp.obj" \
+"CMakeFiles/Huiswerk3.dir/Decorator.cpp.obj" \
+"CMakeFiles/Huiswerk3.dir/Shaman.cpp.obj" \
+"CMakeFiles/Huiswerk3.dir/Farmer.cpp.obj" \
+"CMakeFiles/Huiswerk3.dir/Soldier.cpp.obj" \
+"CMakeFiles/Huiswerk3.dir/NPC.cpp.obj"
 
 # External object files for target Huiswerk3
 Huiswerk3_EXTERNAL_OBJECTS =
 
 Huiswerk3.exe: CMakeFiles/Huiswerk3.dir/main.cpp.obj
+Huiswerk3.exe: CMakeFiles/Huiswerk3.dir/Decorator.cpp.obj
+Huiswerk3.exe: CMakeFiles/Huiswerk3.dir/Shaman.cpp.obj
+Huiswerk3.exe: CMakeFiles/Huiswerk3.dir/Farmer.cpp.obj
+Huiswerk3.exe: CMakeFiles/Huiswerk3.dir/Soldier.cpp.obj
+Huiswerk3.exe: CMakeFiles/Huiswerk3.dir/NPC.cpp.obj
 Huiswerk3.exe: CMakeFiles/Huiswerk3.dir/build.make
 Huiswerk3.exe: CMakeFiles/Huiswerk3.dir/linklibs.rsp
 Huiswerk3.exe: CMakeFiles/Huiswerk3.dir/objects1.rsp
 Huiswerk3.exe: CMakeFiles/Huiswerk3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\phuck\CLionProjects\Huiswerk3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Huiswerk3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\phuck\CLionProjects\Huiswerk3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Huiswerk3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Huiswerk3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

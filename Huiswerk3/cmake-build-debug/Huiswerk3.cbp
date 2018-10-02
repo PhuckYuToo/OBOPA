@@ -80,6 +80,36 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk3/Decorator.cpp">
+			<Option target="Huiswerk3"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk3/Decorator.h">
+			<Option target="Huiswerk3"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk3/Farmer.cpp">
+			<Option target="Huiswerk3"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk3/Farmer.h">
+			<Option target="Huiswerk3"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk3/NPC.cpp">
+			<Option target="Huiswerk3"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk3/NPC.h">
+			<Option target="Huiswerk3"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk3/Shaman.cpp">
+			<Option target="Huiswerk3"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk3/Shaman.h">
+			<Option target="Huiswerk3"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk3/Soldier.cpp">
+			<Option target="Huiswerk3"/>
+		</Unit>
+		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk3/Soldier.h">
+			<Option target="Huiswerk3"/>
+		</Unit>
 		<Unit filename="C:/Users/phuck/CLionProjects/Huiswerk3/main.cpp">
 			<Option target="Huiswerk3"/>
 		</Unit>
