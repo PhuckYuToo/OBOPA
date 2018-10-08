@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/phuck/CLionProjects/Huiswerk4/Main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+functional
+-
+Queue.h
+C:/Users/phuck/CLionProjects/Huiswerk4/Queue.h
+numeric
+-
+
+C:/Users/phuck/CLionProjects/Huiswerk4/Queue.h
+vector
+-
+iostream
+-
+
