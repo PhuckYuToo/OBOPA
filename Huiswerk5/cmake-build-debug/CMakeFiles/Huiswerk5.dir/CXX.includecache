@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/phuck/CLionProjects/Huiswerk5/Concurrent_vector.h
+vector
+-
+mutex
+-
+thread
+-
+
+C:/Users/phuck/CLionProjects/Huiswerk5/Main.cpp
+iostream
+-
+thread
+-
+Concurrent_vector.h
+C:/Users/phuck/CLionProjects/Huiswerk5/Concurrent_vector.h
+queue
+-
+condition_variable
+-
+
