@@ -5,6 +5,7 @@
 #include "Concurrent_vector.h"
 #include <queue>
 #include <condition_variable>
+#include <chrono>
 
 //Canfuncties
 void printLine() {
@@ -29,26 +30,34 @@ int c = 0;
 bool done = false;
 std::queue<int> goods;
 
-std::mutex mute;
-std::condition_variable flag;
+std::mutex mutex, mute;
+std::condition_variable consFlag, prodFlag;
 
 void producer() {
     for(int i = 0; i < 500; ++i) {
-        goods.push(i);
-        c++;
+        {
+            std::lock_guard<std::mutex> lock(mutex);
+            goods.push(i);
+            c++;
+        }
+        std::unique_lock<std::mutex> locker(mute);
+        consFlag.notify_one();
+        prodFlag.wait(locker);
     }
-    flag.notify_all();
     done = true;
+    consFlag.notify_one();
 }
 
 void consumer() {
-    std::unique_lock<std::mutex> lock(mute);
+    std::unique_lock<std::mutex> lock(mutex);
     while(!done) {
-        flag.wait(lock);
+        consFlag.wait(lock);
         while(!goods.empty()) {
+            std::lock_guard<std::mutex> guard(mute);
             goods.pop();
             c--;
         }
+        prodFlag.notify_one();
     }
 }
 
@@ -67,12 +76,14 @@ int main() {
 
     printOpdr(2);
     //Opdr. 2
-    std::thread producerThread(producer);
-    std::thread consumerThread(consumer);
+    for(int i = 0; i < 100; i++) {
+        done = false;
+        std::thread consumerThread(consumer);
+        std::thread producerThread(producer);
 
-    producerThread.join();
-    consumerThread.join();
-    std::cout << "Net: " << c << std::endl;
-
+        consumerThread.detach();
+        producerThread.join();
+        std::cout << "Net: " << c << std::endl;
+    }
     return 0;
 }
