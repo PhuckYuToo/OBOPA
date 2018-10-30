@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/phuck/CLionProjects/Huiswerk6/Child.h
+string
+-
+ostream
+-
+
+C:/Users/phuck/CLionProjects/Huiswerk6/Parent.h
+string
+-
+ostream
+-
+Child.h
+C:/Users/phuck/CLionProjects/Huiswerk6/Child.h
+memory
+-
+
+C:/Users/phuck/CLionProjects/Huiswerk6/main.cpp
+iostream
+-
+Parent.h
+C:/Users/phuck/CLionProjects/Huiswerk6/Parent.h
+memory
+-
+
