@@ -38,7 +38,7 @@ int main() {
     std::cout << "P3:" << *p3 << std::endl;
     std::cout << "Ref: " << p3.use_count() << std::endl << std::endl;
 
-    *p3 = *p1; // roept de assignment operator aan
+    p3 = p1; // roept de assignment operator aan
     std::cout << "P3:" << *p3 << std::endl;
     std::cout << "Ref: " << p1.use_count() << std::endl << std::endl;
 
